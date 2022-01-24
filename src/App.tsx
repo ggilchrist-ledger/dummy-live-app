@@ -95,25 +95,25 @@ const App = () => {
             Request account
           </button>
           <button onClick={verifyAddress} data-test-id="verify-address-button">
-            Verify Address
+            Verify Address (Not yet implemented)
           </button>
           <button onClick={signTransaction} data-test-id="sign-transaction-button">
-            Sign Transaction
+            Sign Transaction (Not yet implemented)
           </button>
           <button onClick={broadcastTransaction} data-test-id="broadcast-transaction-button">
-            Broadcast Transaction
+            Broadcast Transaction (Not yet implemented)
           </button>
           <button onClick={listCurrencies} data-test-id="list-currencies-button">
-            List Currencies
+            List Currencies (Not yet implemented)
           </button>
           <button onClick={swap} data-test-id="swap-button">
-            Swap
+            Swap (Not yet implemented)
           </button>
           <button onClick={fund} data-test-id="fund-button">
-            Fund
+            Fund (Not yet implemented)
           </button>
           <button onClick={sell} data-test-id="sell-button">
-            Sell
+            Sell (Not yet implemented)
           </button>
         </div>
         <pre className="output-container">{output ? prettyJSON(output) : ""}</pre>
